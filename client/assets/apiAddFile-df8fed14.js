@@ -1,1 +1,0 @@
-import{a as r}from"./ModalComponent-09d6e927.js";async function o(e){try{return(await r("/files/loadfile",{method:"post",data:e})).data}catch(a){return{error:a,serverMessage:"Server not available",isServerAvailable:!1}}}export{o as a};
